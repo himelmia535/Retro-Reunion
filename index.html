@@ -20,23 +20,31 @@
     </style>
 </head>
 
-<body class="font-mulish m-6">
+<body class="font-mulish">
     <!-- HEADER START -->
     <header class="container mx-auto my-5">
         <!-- NAVBAR START -->
         <nav>
-            <div class="navbar bg-base-100">
+              <div class="navbar bg-base-100">
                 <div class="flex-1">
-                  <a class="btn btn-ghost text-xl lg:text-3xl text-green-600">Retro Reunion</a>
+                 <img src="images/logo.png" alt="">
                 </div>
-                <div class="flex-none">
-                <ul class="menu menu-horizontal px-1">
-                    <li><abbr title="Home"> <a class="btn bg-green-100 border-green-500 border-2 rounded-full"><img src="./images/home-4-svgrepo-com.svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" alt="Bus-Icon"></a></abbr></li>
-                    <li><abbr title="Pen"> <a class="btn bg-green-100 border-green-500 border-2 rounded-full"><img src="./images/pen-svgrepo-com.svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" alt="Bus-Icon"></a></abbr></li>
-                    <li><abbr title="Add"> <a class="btn bg-green-100 border-green-500 border-2 rounded-full"><img src="./images/add-friend-svgrepo-com.svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" alt="Bus-Icon"></a></abbr></li>
-                    <li><abbr title="Flag"> <a class="btn bg-green-100 border-green-500 border-2 rounded-full"><img src="./images/flag-symbol-svgrepo-com.svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" alt="Bus-Icon"></a></abbr></li>
-                    <li><button class="btn btn-primary rounded-full">Sign In</button></li>
-                </ul>
+                <div class="flex justify-between items-center gap-4 ">
+                  <div class="rounded-full border p-3 cursor-pointer hidden tooltip  tooltip-top lg:block hover:bg-slate-400" data-tip="Home">
+                    <img class="h-5 w-5" src="./images/home-4-svgrepo-com.svg" alt="">
+                  </div>
+                  <div class="rounded-full border p-3 cursor-pointer tooltip  tooltip-top hidden lg:block hover:bg-slate-400" data-tip="Edit">
+                    <img class="h-5 w-5" src="./images/pen-svgrepo-com.svg" alt="">
+                  </div> 
+                  <div class="rounded-full border p-3 cursor-pointer tooltip  tooltip-top hidden lg:block hover:bg-slate-400" data-tip="Add">
+                    <img class="h-5 w-5" src="./images/add-friend-svgrepo-com.svg" alt="">
+                  </div>
+                  <div class="rounded-full border p-3 cursor-pointer tooltip  tooltip-top hidden lg:block hover:bg-slate-400" data-tip="Flag">
+                    <img class="h-5 w-5" src="./images/flag-symbol-svgrepo-com.svg" alt="">
+                  </div>
+                  <div>
+                    <button class=" btn rounded-full bg-[#797DFC] font-mulish font-bold text-white ">Sign In</button>
+                  </div>
                 </div>
               </div>
         </nav>
